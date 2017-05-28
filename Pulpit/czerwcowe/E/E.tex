@@ -1,0 +1,37 @@
+\documentclass[zad,zawodnik,utf8]{sinol}
+\usepackage[utf8]{inputenc}
+\usepackage{epigraph}
+\title{Czy umiesz na sprawdzian z geografii?}
+\id{E}
+\author{Brak} % Autor zadania
+\pagestyle{fancy}
+\iomode{stdin}
+\konkurs{Zawody drużynowe}
+\etap{ILO Białystok}
+\day{}
+\date{01.06.2017}
+\RAM{32}
+
+\begin{document}
+\begin{tasktext}
+
+	Pszemo postanowił, że wystarczy już robienia masy. Pora na rzeźbę. Uznał więc, że będzie jeździł na rowerze. Nie zna on jednak zbyt dobrze swojego miasta, Bitostoku, więc poprosił Rafała, laureata Olimpiady Geograficznej (w alternatywnej, choć nie tak bardzo, rzeczywistości), o przygotowanie mapy. Początkowo zaznaczone są na niej tylko skrzyżowania dróg. $Drogą$ nazwiemy dowolną ulicę łączącą bezpośrednio dwa skrzyżowania, natomiast $częścią$ $miasta$ dowolną spójną składową na mapie (spójna składowa to taki zbiór skrzyżowań, że z każdego można dojechać do każdego innego). Odległość między dwoma skrzyżowaniami na mapie jest zdefiniowana jako najmniejsza ilość dróg, jaką trzeba pokonać, aby dotrzeć z jednego skrzyżowania do drugiego, natomiast $średnica$ jest odległością między dwoma najbardziej oddalonymi skrzyżowaniami. Pszemo wskazuje Rafałowi skrzyżowanie $x$ i chce, by ten podał mu długość średnicy w części miasta, do której należy $x$. Dodatkowo, od czasu do czasu, Pszemo wybiera dwa skrzyżowania $x$ i $y$, położone w różnych częściach miasta, i prosi Rafała o dorysowanie drogi, która połączy te części miasta, w których znajdują się $x$ i $y$. Jednakże, Rafał jest wredny i dorysuje drogę w taki sposób, że średnica nowo powstałej części miasta jest najkrótsza z możliwych (to znaczy, jeśli można dorysować drogę na wiele sposobów to Rafał dorysuje ją właśnie w taki sposób). Pomóż Rafałowi realizować operacje zlecane przez Pszema. Możesz założyć, że długość każdej drogi wynosi $1$.
+
+  \section{Wejście}
+
+	W pierwszym wierszu standardowego wejścia znajdują się dwie liczby całkowite $n$ oraz $m$ $(1 \leq n, m \leq 3*10^5)$ oznaczające odpowiednio ilość skrzyżowań na mapie oraz
+liczbę zapytań Pszema. Każdy z następnych $m$ wierszy zawiera słowo $s$.
+\begin{enumerate}
+	\item Jeśli $s = "polacz"$ to występują po nim dwie liczby całkowite $x$ i $y$ $(1 \leq x, y \leq n)$ oznaczające, że Rafał łączy części miasta zawierające skrzyżowania o numerach $x$ oraz $y$. Można założyć, że $x$ oraz $y$ znajdują się w różnych częściach miasta. Zapytań tego typu będzie nie więcej niż $n - 1$.
+	\item Jeśli $s = ``sciezka``$, to występuje po nim liczba całkowita $x$ $(1 \leq x \leq n)$, oznaczająca, że musisz podać długość średnicy tej części miasta, w której znajduje się skrzyżowanie numer $x$.
+\end{enumerate}
+
+	\section{Wyjście}
+	
+	Po każdym zapytaniu typu $"$sciezka$"$ wypisz odpowiedź w nowej linii.
+
+
+
+\end{tasktext}
+\end{document}
+
