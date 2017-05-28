@@ -1,0 +1,46 @@
+\documentclass[zad,zawodnik,utf8]{sinol}
+\usepackage[utf8]{inputenc}
+\usepackage{epigraph}
+\title{Czy umiesz patyczkować algebraicznie?}
+\id{H}
+\author{Franciszek Budrowski} % Autor zadania
+\pagestyle{fancy}
+\iomode{stdin}
+\konkurs{Zawody drużynowe}
+\etap{ILO Białystok}
+\day{}
+\date{01.06.2017}
+\RAM{267}
+ 
+\begin{document}
+\begin{tasktext}
+
+\iffalse
+\epigraph{Man wollte sie zu zwanzig Dingen \\ in einem Haus in Danzig zwingen.}{\textit{Erich Mühsam}}
+%Paul Bähre: Danziger Heimatlied (1921)
+Danzig sei deutsch!
+Danzig, gerissen vom Mutterlande,
+Stehst du allein nach der Feinde Gebot.
+Danzig, du Perle am Ostseestrande,
+Weh klingt deine Klage: Deutschtum in Not!
+Deutschtum in Not – Danzig in Not!
+Im Staube das Banner schwarz-weiß-rot! 
+\fi
+
+
+Mimo uzyskania wyniku punktowego niezbędnego do otrzymania koszulki, Farał takowej nie otrzymał. Organizatorzy zgodzili się na powiększenie jego kolekcji koszulek, jednak musi on udowodnić, że zasługuje na ten zaszczyt.
+ Mianowicie Rafał otrzyma koszulkę wtedy  i tylko wtedy, gdy poda przykład drzewa $kremówkowego$. Drzewo nazywamy $kremówkowym$, jeśli  nie istnieje takie przypisanie liter do wierzchołków, że na ścieżce pomiędzy każdą parą wierzchołków o tej samej literze znajduje się wierzchołek o literze występującej wcześniej w alfabecie (alfabet składa się z 26 liter od $A$ do $Z$).  W szczególności, w takim przypisaniu nie istnieje para wierzchołków indeksowanych literami $A$ (gdyż nie ma litery występującej przed $A$ w alfabecie). Farał ma już kilka ciekawych pomysłów, jednak nie wie jak sprawdzić, czy drzewo jest $kremówkowe$. Pomóż mu zdobyć wymarzoną koszulkę i napisz program który dla danego drzewa sprawdzi, czy jest $kremówkowe$. Dzięki twojej pomocy Rafał na pewno zdobędzie wymarzoną koszulkę i przestanie być pośmiewiskiem w szkole.
+
+  \section{Wejście}
+W pierwszej linii standardowego wejścia znajduje się liczba $n$ ($1 \leq n \leq 1000$), określająca ilość wierzchołków w drzewie. Kolejne $n-1$ wierszy zawiera pary liczb opisujące krawędzie drzewa. Można założyć, że graf na wejściu jest drzewem.
+
+
+	\section{Wyjście}
+W pierwszej i jedynej linii standardowego wyjścia należy wypisać ''$wreszcie$ $sie$ $udalo$'' jeśli drzewo jest kremówkowe lub ''$rafal$ $bez$ $koszulki$''  w przeciwnym wypadku.
+	\makecompactexample
+
+
+	\section{Wyjaśnienie do przykładu}
+	Jedno z poprawnych przypisań liter do wierzchołków to ($1-A,2-I,3-G,4-D,5-Z$).
+\end{tasktext}
+\end{document}
