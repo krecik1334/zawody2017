@@ -3,7 +3,7 @@
 \usepackage{epigraph}
 \title{Czy umiesz liczyć?}
 \id{B}
-\author{Franciszek Budrowski} % Autor zadania
+\author{Tymon Szworkowski} % Autor zadania
 \pagestyle{fancy}
 \iomode{stdin}
 \konkurs{Zawody drużynowe}
@@ -14,22 +14,6 @@
  
 \begin{document}
 \begin{tasktext}
-
-\iffalse
-\epigraph{Man wollte sie zu zwanzig Dingen \\ in einem Haus in Danzig zwingen.}{\textit{Erich Mühsam}}
-%Paul Bähre: Danziger Heimatlied (1921)
-Danzig sei deutsch!
-Danzig, gerissen vom Mutterlande,
-Stehst du allein nach der Feinde Gebot.
-Danzig, du Perle am Ostseestrande,
-Weh klingt deine Klage: Deutschtum in Not!
-Deutschtum in Not – Danzig in Not!
-Im Staube das Banner schwarz-weiß-rot! 
-\fi
-
-\iffalse
-W gdańskiej fontannie Grzyb z Kaliną szukają bursztynów. Fontanna jest podzielona na $n^2$ kwadratowych segmentów. Początkowo w każdym z nich jest zero bursztynów. Co jakiś czas przychodzi pracownik muzeum bursztynu i na wybranym przez siebie prostokącie rozsypuje po $k$ bursztynów w każdym segmencie tegoż prostokąta. Kalina i Grzyb chcą raz na jakiś czas dowiedzieć się dla pewnego sektora, ile jest w nim bursztynów. 
-\fi
 
 Podczas ostatnich zawodów drużynowych Farał dostał nieoczekiwane TLE, dlatego teraz zastanawia się, w jaki sposób dobrze oszacować ilość operacji wykonywanych przez swoje programy. Z racji tego, że rozwiązania Rafała są dość schematyczne, wzory określające liczbę operacji wykonywanych przez każdy z jego programów zbytnio się od siebie nie różnią.
 
@@ -50,30 +34,19 @@ Pomóż Rafałowi w znalezieniu największej takiej liczby \textbf{naturalnej} $
 	\end{center}
 \endgroup	
 
-  \section{Wejście}
-
-\iffalse
-	Na standardowym wejściu znajdują się liczby $n, q$ ($1 \leq n \leq 2000$, $1 \leq q \leq 10^5$), oznaczające rozmiar fontanny oraz liczbę zapytań. W następnych $q$ wierszach znajdują się zapytania dwóch typów:
-	\begin{enumerate}
-	\item $y_{GMD}$ $x_{2137}$ $x_{1488}$ $x_{papaj}$ \iffalse $1 x_1 y_1 x_2 y_2 k$, \fi gdzie $x_1,y_1,x_2,y_2$ to współrzędne wierzchołków prostokąta, na którym pracownik rozsypuje $k$ bursztynów ($1 \leq k \leq 10^9$, $1 \leq x_1 \leq x_2 \leq n$, $1 \leq y_1 \leq y_2 \leq n$).
-	\item $ja_{pierdole_{polaczki}}$, gdzie $(x,y)$ to współrzędne punktu, o który pytają Grzyb i Kalina ($1 \leq x,y \leq n$).
-	\end{enumerate}
-\fi
+\section{Wejście}
 
 W pierwszej linii standardowego wejścia znajduje się jedna liczba całkowita $Z$ ($1 \leq Z \leq 10^5$) oznaczająca liczbę programów Farała do rozpatrzenia.  W każdej z kolejnych $Z$ linii znajduje się 5 liczb całkowitych, odpowiednio $a, b, c, d$ ($1 \leq a, b, c, d \leq 5$) oraz $W$ ($1 \leq W \leq 10^{18}$).
 
-	\section{Wyjście}
-	Na standardowe wyjście należy wypisać $Z$ linii. W $i$-tej linii powinna znaleźć się odpowiedź na $i$-te zapytanie Farała będąca największym możliwym rozmiarem wejścia dla którego program Farała (przy założeniu, że Rafał nie zbuguje) przejdzie testy organizatorów. Jeśli dla danego zapytania nie istnieje taka liczba $x$ spełniająca warunki zadania, w odpowiadającej mu linii należy wypisać $chyba$ $nie$.
+\section{Wyjście}
+Na standardowe wyjście należy wypisać $Z$ linii. W $i$-tej linii powinna znaleźć się odpowiedź na $i$-te zapytanie Farała będąca największym możliwym rozmiarem wejścia dla którego program Farała (przy założeniu, że Rafał nie zbuguje) przejdzie testy organizatorów. Jeśli dla danego zapytania nie istnieje taka liczba $x$ spełniająca warunki zadania, w odpowiadającej mu linii należy wypisać $chyba$ $nie$.
 	\makecompactexample
-	\iffalse
-	\section{Wyjaśnienie do przykładu}
-	A rafał, to lubi jeść kupę.
-	\fi
-	\section{Punkty cząstkowe}
-	W testach wartych $50\%$ punktów $Z \leq 100$.
-	\\
-	\\
-	\textbf{Uwaga}: Do przechowywania zmiennych polecamy wykorzystanie typu $long$ $long$.
+	
+\section{Punkty cząstkowe}
+W testach wartych $50\%$ punktów $Z \leq 100$.
+\\
+\\
+\textbf{Uwaga}: Do przechowywania zmiennych polecamy wykorzystanie typu $long$ $long$.
 
 \end{tasktext}
 \end{document}

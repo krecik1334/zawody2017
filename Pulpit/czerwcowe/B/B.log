@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.26)  27 MAY 2017 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.26)  28 MAY 2017 09:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -647,41 +647,41 @@ Overfull \hbox (478.00629pt too wide) detected at line 16
 []
  []
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 36.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 20.
 (/usr/share/texlive/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 36.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 36.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 20.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 36.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 20.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 36.
+(Font)              <10> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 36.
+(Font)              <7> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 36.
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 40.
+(Font)              <5> on input line 20.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 24.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <13> on input line 40.
+(Font)              <13> on input line 24.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.09996> on input line 40.
+(Font)              <9.09996> on input line 24.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.5> on input line 40.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 67.
+(Font)              <6.5> on input line 24.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -689,7 +689,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: B0.in  (verbatim)
 File: B0.out  (verbatim)
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--77
+Underfull \hbox (badness 10000) in paragraph at lines 46--50
 
  []
 
@@ -701,11 +701,11 @@ converted-to.pdf>] (./B.aux) )
 Here is how much of TeX's memory you used:
  3559 strings out of 493069
  47118 string characters out of 6138222
- 113460 words of memory out of 5000000
+ 113457 words of memory out of 5000000
  6957 multiletter control sequences out of 15000+600000
  59890 words of font info for 46 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 38i,10n,45p,448b,775s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,45p,447b,775s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm
 /lm-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/sh
 are/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texlive/tex

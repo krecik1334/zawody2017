@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.26)  27 MAY 2017 13:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.26)  28 MAY 2017 09:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -647,7 +647,7 @@ Overfull \hbox (478.00629pt too wide) detected at line 16
 []
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 37.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 25.
 (/usr/share/texlive/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -664,7 +664,7 @@ converted-to.pdf>] (./C.aux) )
 Here is how much of TeX's memory you used:
  3471 strings out of 493069
  45256 string characters out of 6138222
- 109461 words of memory out of 5000000
+ 109459 words of memory out of 5000000
  6899 multiletter control sequences out of 15000+600000
  35066 words of font info for 26 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
