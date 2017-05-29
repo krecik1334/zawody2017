@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.26)  28 MAY 2017 09:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.26)  29 MAY 2017 22:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -690,33 +690,41 @@ LaTeX Warning: Command \k invalid in math mode on input line 18.
 
 LaTeX Warning: Command \' invalid in math mode on input line 18.
 
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 32.
+(/usr/share/texlive/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+File: E0.in  (verbatim)
+File: E0.out  (verbatim)
+
 SINOL: znaleziono bledy (zob. E.err) !
 [1
 
 {/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./logo-eps-
 converted-to.pdf>] (./E.aux) ) 
 Here is how much of TeX's memory you used:
- 3498 strings out of 493069
- 46270 string characters out of 6138222
- 112474 words of memory out of 5000000
- 6912 multiletter control sequences out of 15000+600000
- 45757 words of font info for 35 fonts, out of 8000000 for 9000
+ 3547 strings out of 493069
+ 46959 string characters out of 6138222
+ 113474 words of memory out of 5000000
+ 6950 multiletter control sequences out of 15000+600000
+ 46076 words of font info for 36 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 38i,10n,45p,1774b,586s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,45p,1783b,779s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm
-/lm-rm.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/us
-r/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/tex
+/lm-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/sh
+are/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texlive/tex
 mf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/lm/lmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/
 lmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/lm/lmri10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm
-/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on E.pdf (1 page, 163423 bytes).
+/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on E.pdf (1 page, 187484 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

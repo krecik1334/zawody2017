@@ -1,0 +1,52 @@
+\documentclass[zad,zawodnik,utf8]{sinol}
+\usepackage[utf8]{inputenc}
+\usepackage{epigraph}
+\title{Czy umiesz osiągnąć cel?}
+\id{F}
+\author{Memeusz Dankowski} % Autor zadania
+\pagestyle{fancy}
+\iomode{stdin}
+\konkurs{Zawody drużynowe}
+\etap{ILO Białystok}
+\day{}
+\date{01.06.2017}
+\RAM{1024}
+ 
+\begin{document}
+\begin{tasktext}
+
+Po tysiącach przejechanych kilometrów rowerem Pszemo już prawie osiągnął swój cel.
+Z resztą, jak sam o sobie mówi:
+\begingroup
+    \fontsize{9pt}{12pt}\selectfont
+	\begin{center}\fontfamily{pcr}\selectfont
+ 		Mam jedne z lepiej wyglądających nóg w Bitostoku, mam bardzo dobre
+		plecy, ładne barki, ale nie mam klatki.
+	\end{center}
+\endgroup	
+Memeusz jest przyjacielem Pszema i dobrze wie, że wzbudza to w nim ogromne emocje, dlatego postanowił mu pomóc. Zna on wszystkich trenerów personalnych w Bitostoku i umie dokładnie ocenić, o ile zmieni się współczynnik wyglądu klatki u Pszema, jeżeli pójdzie na trening do danego trenera.
+Trenerzy w Bitostoku są ponumerowani od $1$ do $n$. Co ciekawe, mają oni też ustaloną między sobą pewną hierarchię.
+Wymogiem treningu z trenerem numer $x$ jest wcześniejszy trening z trenerem numer $p_x$. Zagwarantowane jest,
+że wymogiem treningu u danego trenera będzie zawsze trening u \textbf{dokładnie jednego} innego trenera.
+Najpierw wszyscy zawodnicy zaczynający trenować klatkę muszą udać się na trening do trenera nr $1$. Następnie mogą wybierać do woli spośród wszystkich dostępnych im trenerów podległych trenerowi $1$.
+Sprawia to, że gdybyśmy przedstawili tę relację jako graf, to otrzymalibyśmy drzewo (spójny graf o $n$ wierzchołkach i $n-1$ krawędziach) ukorzenione w wierzchołku $1$.
+Jednak Memeusz jako doświadczony sportowiec wie, że treningi z niektórymi trenerami nie będą dobre dla Pszema.
+Chce go uchronić przed pogorszeniem wyglądu jego klatki, a jednocześnie chciałby mu pomóc ją rozbudować
+najlepiej jak tylko się da. Pszemo jednak, skupiony na osiąganiu swojego celu, ma zamiar trenować u wszystkich
+dostępnych mu trenerów. Memeusz bardzo chciałby wskazać wszystkich trenerów, u których nie opłaca mu się trenować, ale Pszemo pozwolił mu na wskazanie maksymalnie $k$ z nich. Wskazanie konkretnego trenera przez Memeusza oznacza, że Pszemo nie będzie również trenował u wszystkich trenerów dla których wymogiem jest dany trener, przy czym \textbf{nie liczą się oni} do liczby wskazanych trenerów. Memeusz chciałby wiedzieć, jaki maksymalny współczynnik wyglądu klatki może osiągnąć Pszemo, jeżeli nie pójdzie na trening do maksymalnie $k$ trenerów. Współczynnik wyglądu klatki przed treningami u Pszema wynosi $0$, a po każdym treningu zmienia się on zależnie od wartości przypisanej do danego trenera.
+
+
+  \section{Wejście}
+
+W pierwszej linii standardowego wejścia znajdują się 2 liczby $n, k$ ($1 \leq n \leq 10^5, 1 \leq k \leq 200$) oznaczające odpowiednio liczbę trenerów oraz liczbę wskazaną przez Pszema. Dalej następuje $n$ linii, w $i$-tej z nich ($1 \leq i \leq n$) znajduje się liczba $w_i$ ($-10^9 \leq w_i \leq 10^9$) czyli informacja, o ile zmieni się współczynnik wyglądu klatki Pszema po treningu z trenerem numer $i$ (jeżeli ta liczba jest dodatnia to wzrośnie, jeżeli równa $0$ nie zmieni się, jeśli ujemna to zmaleje). W kolejnych $n - 1$ liniach znajduje się informacja o strukturze trenerów, przy czym w $j$-tej z nich ($2 \leq j \leq n$) jest liczba $p_j$ oznaczająca numer trenera wymaganego do treningu z $j$-tym trenerem.
+
+	\section{Wyjście}
+W pierwszej i jedynej linii standardowego wyjścia należy wypisać maksymalną wartość współczynnika wyglądu klatki jaką może osiągnąć Pszemo przy założeniu, że opuści treningi u maksymalnie $k$ trenerów.
+	\makecompactexample
+\textbf{Uwaga:} Pszemo może wcale nie trenować klatki, jeśli mu się to nie opłaca.
+	\iffalse
+	\section{Wyjaśnienie do przykładu}
+	A rafał, to lubi jeść kupę.
+	\fi
+\end{tasktext}
+\end{document}
