@@ -1,0 +1,36 @@
+\documentclass[zad,zawodnik,utf8]{sinol}
+\usepackage[utf8]{inputenc}
+\usepackage{epigraph}
+\title{Czy umiesz malować?}
+\id{G}
+\author{Wamian Derpachowski} % Autor zadania
+\pagestyle{fancy}
+\iomode{stdin}
+\konkurs{Zawody drużynowe}
+\etap{ILO Białystok}
+\day{}
+\date{01.06.2017}
+\RAM{256}
+
+\begin{document}
+\begin{tasktext}
+
+	W Bajtocji odbywają się mistrzostwa świata w piłce nożnej. Fani tego emocjonującego sportu zebrali się na stadionach i przed telewizorami, aby kibicować swoim ulubionym drużynom. Niestety, są też ludzie, którzy w tym czasie $"$upiększają$"$ okolicę symbolami klubów oraz obraźliwymi hasłami. Nazywamy ich pseudokibicami. Ich celem stało się $m$ nowych inwestycji budowlanych ponumerowanych od $1$ do $m$, z których $i$-ta ma rozmiar równy $i$, oznaczający, że potrzeba $i$ $dm^3$ farby do zamalowania tego budynku. Jak co roku, pseudokibice chodzą w $n$ osobowej grupie. Uzgodnili między sobą, że każdy z nich pomaluje tyle samo budynków (przy czym nie muszą malować wszystkich $m$ budynków). Piewszy z pseudokibiców wybiera budynek, który pomaluje, następnie swoją kolej w wyborze ma drugi, trzeci, aż do $n$-tego, po czym znowu wybierają pierwszy, drugi... i tak w kółko. Jak długo będzie to trwać zależy wyłącznie od ich chęci, zasobów finansowych oraz ilości budynków. Zachodzi jednak przy tym pewna własność. Jeśli pomalowano już budynek o rozmiarze $x$ to można pomalować już tylko budynki o rozmiarach ściśle większych od $x$. Chwileczkę... a właściwie to skąd ci wandale biorą farby? W tym momencie na scenę wchodzi Syzymon, właściciel lokalnego sklepu z austriackimi akwarelami i innymi spray'ami. Ze względu na duże zamówienie, zgodził się sprzedać potrzebne substancje w cenie $1\frac{zł}{dm^3}$. Syzymon, jak można się domyślić, jest człowiekiem interesu, stąd wie dokładnie ile pieniędzy ma przy sobie każdy z pseudokibiców (dokładniej, $i$-ty z nich ma $a_i$ zł). Zakładając, że każdy z pseudokibiców kupi dokładnie tyle farby ile mu będzie potrzebne (ale nie więcej niż go na to stać), pomóż Syzymonowi obliczyć maksymalny zysk jaki może uzyskać w najlepszym przypadku.
+
+  \section{Wejście}
+
+	W pierwszej linii standardowego wejścia znajdują się dwie liczby całkowite $n, m$ $(2 \leq n \leq 2 * 10^5, 2 \leq m \leq 5 * 10^6, n \leq m)$.
+	W każdej z $n$ następnych linii znajduje się jedna liczba całkowita $a_i$ $(1 \leq a_i \leq \frac{m(m+1)}{2})$ oznaczająca, że $i$-ty pseudokibic ma $a_i$ zł.
+	Możesz założyć, że pseudokibice będą tak wybierać budynki, aby spełnione były wszystkie wymienione warunki, zatem każdy z nich pomaluje dokładnie tyle samo budynków (niekoniecznie wszystkie), wybierać je będą zmieniając się cyklicznie oraz gdyby rozmieścić malowane budynki na osi czasu to będą one występować w kolejności rosnących rozmiarów. Nie można pomalować budynku częściowo. Budynek może być malowany tylko przez jednego pseudokibica. Żaden budynek nie może zostać pomalowany więcej niż raz.
+
+
+	\section{Wyjście}
+	W pierwszej i jedynej linii standardowego wyjścia należy wypisać jedną liczbę całkowitą oznaczającą maksymalny zysk jaki może uzyskać Syzymon ze sprzedaży farby dla pseudkobiców w najlepszym możliwym przypadku, zakładając, że będą wybierać budynki do pomalowania zgodnie z zasadami przedstawionymi w treści.
+\makecompactexample
+
+	\section{Wyjaśnienie do przykładu}
+		Pierwszy pseudokibic maluje budynek o rozmiarze $2$. Następnie drugi pseudokibic maluje budynek o rozmiarze $4$, a trzeci maluje o rozmiarze $5$. Można malować już tylko budynki o rozmiarach większych niż $5$, więc pierwszy maluje o rozmiarze $6$, drugi o rozmiarze $7$, trzeci o rozmiarze $8$.
+
+\end{tasktext}
+\end{document}
+
